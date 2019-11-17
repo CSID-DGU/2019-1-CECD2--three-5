@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><generator>
+        
+    <generatorInfo>
+                
+        <logLevel/>
+                
+        <logback/>
+                
+        <storage/>
+                
+        <notify/>
+                
+        <runHistoryNo/>
+                
+        <executionUuid>711cd816-e283-476b-a310-e53d433f4cce</executionUuid>
+                
+        <generatorDiv>P</generatorDiv>
+                
+        <targetLanguage>Java</targetLanguage>
+                
+        <testDesc>null_selectUserListnull</testDesc>
+            
+    </generatorInfo>
+        
+    <testsuite at="local" id="1">
+                
+        <tsInfo>
+                        
+            <projectName>SUT 프로젝트</projectName>
+                        
+            <projectOwner>0</projectOwner>
+                        
+            <generateCount>3</generateCount>
+                        
+            <folder/>
+                        
+            <filename/>
+                        
+            <function>selectUserList</function>
+                        
+            <functionNo>13203</functionNo>
+                        
+            <desc>null_selectUserList</desc>
+                    
+        </tsInfo>
+                
+        <structInfo>
+                        
+            <header>
+                                
+                <field length="8" name="length" type="int"/>
+                                
+                <field length="2" name="command" type="char"/>
+                            
+            </header>
+                        
+            <body>
+                                
+                <fields name="selectUserListInput" typedef="structs.SelectUserListInput"/>
+                            
+            </body>
+                        
+            <footer>
+                                
+                <field length="8" name="checksum" type="int"/>
+                                
+                <field length="2" name="endMark" type="char"/>
+                            
+            </footer>
+                    
+        </structInfo>
+                
+        <rules>
+                        	
+            
+            <header>
+                                		
+                
+                <length fieldTypeNo="0" valLength="8" valueDiv="VALUE"/>
+                                		
+                
+                <command fieldTypeNo="0" valLength="2" valueDiv="VALUE"/>
+                                	
+            
+            </header>
+                        	
+            
+            <body>
+                                		
+                
+                <SelectUserListInput>
+                                        			
+                    
+                    <length fieldTypeNo="6" valLength="8" valueDiv="VALUE"/>
+                                        			
+                    
+                    <command fieldTypeNo="6" valLength="2" valueDiv="VALUE"/>
+                                        			
+                    
+                    <userName fieldTypeNo="6" valLength="100" valueDiv="VALUE"/>
+                                        			
+                    
+                    <email fieldTypeNo="6" valLength="100" valueDiv="VALUE"/>
+                                        			
+                    
+                    <deptCode fieldTypeNo="6" valLength="8" valueDiv="VALUE"/>
+                                        			
+                    
+                    <checksum fieldTypeNo="6" valLength="8" valueDiv="VALUE"/>
+                                        			
+                    
+                    <endMark fieldTypeNo="6" valLength="2" valueDiv="VALUE"/>
+                                        		
+                
+                </SelectUserListInput>
+                                	
+            
+            </body>
+                        	
+            
+            <footer>
+                                		
+                
+                <checksum fieldTypeNo="0" valLength="8" valueDiv="VALUE"/>
+                                		
+                
+                <command fieldTypeNo="0" valLength="2" valueDiv="VALUE"/>
+                                	
+            
+            </footer>
+                        
+        
+        </rules>
+            
+    </testsuite>
+    
+    <storage>null/711cd816-e283-476b-a310-e53d433f4cce</storage>
+    <state>null/711cd816-e283-476b-a310-e53d433f4cce/pairwise-711cd816-e283-476b-a310-e53d433f4cce.state</state>
+</generator>

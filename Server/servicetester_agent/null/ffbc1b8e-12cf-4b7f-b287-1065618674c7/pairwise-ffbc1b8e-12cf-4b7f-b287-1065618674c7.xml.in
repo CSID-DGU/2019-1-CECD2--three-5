@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><generator>
+        
+    <generatorInfo>
+                
+        <logLevel/>
+                
+        <logback/>
+                
+        <storage/>
+                
+        <notify/>
+                
+        <runHistoryNo/>
+                
+        <executionUuid>ffbc1b8e-12cf-4b7f-b287-1065618674c7</executionUuid>
+                
+        <generatorDiv>P</generatorDiv>
+                
+        <targetLanguage>Java</targetLanguage>
+                
+        <testDesc>null_selectUserListnull</testDesc>
+            
+    </generatorInfo>
+        
+    <testsuite at="local" id="1">
+                
+        <tsInfo>
+                        
+            <projectName>SUT 프로젝트</projectName>
+                        
+            <projectOwner>0</projectOwner>
+                        
+            <generateCount>3</generateCount>
+                        
+            <folder/>
+                        
+            <filename/>
+                        
+            <function>selectUserList</function>
+                        
+            <functionNo>13203</functionNo>
+                        
+            <desc>null_selectUserList</desc>
+                    
+        </tsInfo>
+                
+        <structInfo>
+                        
+            <header>
+                                
+                <field length="8" name="length" type="int"/>
+                                
+                <field length="2" name="command" type="char"/>
+                            
+            </header>
+                        
+            <body>
+                                
+                <fields name="selectUserListInput" typedef="structs.SelectUserListInput"/>
+                            
+            </body>
+                        
+            <footer>
+                                
+                <field length="8" name="checksum" type="int"/>
+                                
+                <field length="2" name="endMark" type="char"/>
+                            
+            </footer>
+                    
+        </structInfo>
+                
+        <pairs>
+                        	
+            
+            <header>
+                                		
+                
+                <length ruleNo="0" valLength="8" valueDiv="VALUE"/>
+                                		
+                
+                <command ruleNo="0" valLength="2" valueDiv="VALUE"/>
+                                	
+            
+            </header>
+                        	
+            
+            <body>
+                                		
+                
+                <SelectUserListInput>
+                                        			
+                    
+                    <length ruleNo="2" valLength="8" valueDiv="VALUE">
+                                                
+                        <![CDATA[{"pairwiseValueList":[Ljava.lang.String;@2dd01815}]]>
+                                            
+                    </length>
+                                        			
+                    
+                    <command ruleNo="2" valLength="2" valueDiv="VALUE">
+                                                
+                        <![CDATA[{"pairwiseValueList":[Ljava.lang.String;@2d77ed61}]]>
+                                            
+                    </command>
+                                        			
+                    
+                    <userName ruleNo="2" valLength="100" valueDiv="VALUE">
+                                                
+                        <![CDATA[{"pairwiseValueList":[Ljava.lang.String;@60553009}]]>
+                                            
+                    </userName>
+                                        			
+                    
+                    <email ruleNo="2" valLength="100" valueDiv="VALUE">
+                                                
+                        <![CDATA[{"pairwiseValueList":[Ljava.lang.String;@4d688ca6}]]>
+                                            
+                    </email>
+                                        			
+                    
+                    <deptCode ruleNo="2" valLength="8" valueDiv="VALUE">
+                                                
+                        <![CDATA[{"pairwiseValueList":[Ljava.lang.String;@6fc2c70a}]]>
+                                            
+                    </deptCode>
+                                        			
+                    
+                    <checksum ruleNo="2" valLength="8" valueDiv="VALUE">
+                                                
+                        <![CDATA[{"pairwiseValueList":[Ljava.lang.String;@7dcc3376}]]>
+                                            
+                    </checksum>
+                                        			
+                    
+                    <endMark ruleNo="2" valLength="2" valueDiv="VALUE">
+                                                
+                        <![CDATA[{"pairwiseValueList":[Ljava.lang.String;@345091be}]]>
+                                            
+                    </endMark>
+                                        		
+                
+                </SelectUserListInput>
+                                	
+            
+            </body>
+                        	
+            
+            <footer>
+                                		
+                
+                <checksum ruleNo="0" valLength="8" valueDiv="VALUE"/>
+                                		
+                
+                <command ruleNo="0" valLength="2" valueDiv="VALUE"/>
+                                	
+            
+            </footer>
+                        
+        
+        </pairs>
+            
+    </testsuite>
+    
+    <storage>null/ffbc1b8e-12cf-4b7f-b287-1065618674c7</storage>
+    <state>null/ffbc1b8e-12cf-4b7f-b287-1065618674c7/pairwise-ffbc1b8e-12cf-4b7f-b287-1065618674c7.state</state>
+</generator>
