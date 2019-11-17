@@ -1,0 +1,48 @@
+.pairwise-type-parameter-edit-tool-bar{
+.tool-bar{
+  width: 100%;
+  padding-top: -10em;
+  .bottom-tool-bar {
+    float: left;
+    width: 100%;
+    height: 10%;
+    font-family: '나눔고딕';
+    font-weight: 800;
+    $text-color : #333333;
+    $font-size : 12px;
+
+    .toolbar-group {
+      float: right;
+      margin-bottom: 0.5%;
+  
+      .button-group {
+        position: relative;
+        float: left;  //버튼 나란히 위치
+        width: auto;
+        margin-top: 1%;
+        margin-left: 10px; //버튼간격 조정
+  
+        .save-button{
+          background-color: white;
+          border : 1px solid #AAAAAA;
+          i{
+            color:#666666;
+            margin-right: 10px;
+          }
+          .save-font{
+            color:#666666;
+            font-weight: bold;
+          }
+          &:hover{
+            background-color: #D4D4D4;
+          }
+        }
+        
+      }
+    }
+  }
+  
+
+}
+}
+

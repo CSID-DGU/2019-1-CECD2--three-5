@@ -1,0 +1,66 @@
+.random-rule-parameter-edit-table {
+  background-color: white;
+  text-align: center;
+  float: center;
+  font-family: '나눔고딕';
+  font-weight: bold;
+  $text-color : #333333;
+  $font-size : 12px;
+ 
+  .table{
+    margin: 0;
+    background-color: rgba(230, 230, 230, 1);
+  }
+  .row{
+    background-color: white;
+    display: inline-flex;
+    float: left;
+    width: 102%;
+    padding-bottom: 5em;
+    .btn-secondary{
+      background-color: white;
+      color: #979797;
+      border-color: #979797;
+    }
+    .react-bootstrap-table-pagination-list{
+      float: right;
+      .pagination{
+        color: #979797;
+        margin-top: -2.5em;
+        height: 3.5em;
+        box-shadow: none;
+        margin-right: 7.5em;
+        li{
+          padding: 0.5em;
+          border-bottom: none;
+        }
+        .page-item:hover{
+          background-color: white;
+        }
+        .page-link{
+          background-color: white;
+          color: #979797;
+          border-color: white;
+        }
+      }
+    }
+    .react-bs-table-sizePerPage-dropdown{
+      float:left;
+      left: 1em;
+      margin-top: -1.5em;
+    }
+    .react-bootstrap-table-pagination-total{
+      color: #979797;
+      float: left;
+      margin-top: 1.15em;
+      left: 5em;
+      position: relative;
+    }
+  }
+
+.fa {
+  cursor: pointer;
+}
+
+
+}

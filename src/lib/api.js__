@@ -1,0 +1,6 @@
+import axios from 'axios';
+//import {IP_ADDRESS} from '../HARD_CODED_VALUE';
+export const insertUnitTestCase = ({testcaseName, testcaseGroupNo, testcaseDescription, generator}) => axios.post('http://192.168.11.101:9000/testcase/addTestcase/1', {testcaseName, testcaseGroupNo, testcaseDescription, generator} );
+//export const insertUnitTestCase = ({testcaseName, testcaseGroupNo, testcaseDescription, generator}) => axios.post('http://192.168.10.68:9000/testcase/addTestcase/1', {testcaseName, testcaseGroupNo, testcaseDescription, generator} );
+//KOS20190820 export const getTestCaseJSON = (id) => axios.get(IP_ADDRESS +'/testcase/viewTestcaseEdit/1?testcaseNo='+ id);
+//KOS20190820 export const getProjectTreeJSON = (id) => axios.get(IP_ADDRESS + '/projectMng/viewProjectTreeList/1?projectNo='+ id);

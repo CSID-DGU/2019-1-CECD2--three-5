@@ -1,0 +1,54 @@
+{
+    "master": [
+      {"data": {"varName": "testcaseName","valLength": "", "valType": "","isBinary":"", "value":"", "status":"R"}},
+      {"data": {"varName": "testcaseNo","valLength": "", "valType": "","isBinary":"", "value":"", "status":"R"}},
+      {"data": {"varName": "testcaseGroupName","valLength": "", "valType": "","isBinary":"", "value":"", "status":"R"}},
+      {"data": {"varName": "testcaseGroupNo","valLength": "", "valType": "","isBinary":"", "value":"", "status":"R"}}
+    ],
+    "detail": 
+    [
+      {  
+       "data" : {"varName": "testcase","valLength": "", "valType": "","isBinary":"", "value":"", "status":"R"},
+       "height": 32,
+       "children" : [
+                {"data" : {"varName": "origInputTc","valLength": "", "valType": "","isBinary":"", "value":"", "status":"R"},
+                "children" : [
+                         {
+                            "data": {"varName": "header","valLength": "", "valType": "","isBinary":"", "value":"", "status":"R"},
+                            "children": [
+                                           {"data": {"varName": "length","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"000000000", "status":"R"}},
+                                           {"data": {"varName": "command","valLength": "2", "valType": "VALUE","isBinary":"아니오", "value":"VI", "status":"R"}}
+                                        ]
+                          },
+                          {
+                              "data": {"varName": "body","valLength": "", "valType": "","isBinary":"", "value":""},
+                              "children": [ {
+                                    "data": {"varName": "StUser","valLength": "", "valType": "","isBinary":"", "value":""},
+                                     "children": [
+                                                    {"data": {"varName": "userNo","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"234,15487,*"}},
+                                                    {"data": {"varName": "userId","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"1F5E8,15FF3,"}},
+                                                    {"data": {"varName": "userName","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"궭쉑궤쌁,,김향"}},
+                                                    {"data": {"varName": "position","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"갉삽,*,아"}},
+                                                    {"data": {"varName": "deptCode","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"124,345"}},
+                                                    {"data": {"varName": "deptCode2","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"18,24"}},
+                                                    {"data": {"varName": "email","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"EQwX@rcxqjz.mai,DKFKFF"}},
+                                                    {"data": {"varName": "handphone","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"150-487-2757,010-455-3434"}}
+                                                    
+                                                  ]
+                              }]
+                               },
+                               {
+                                  "data": {"varName": "footer","valLength": "", "valType": "","isBinary":"", "value":""},
+                                  "children": [
+                                                 {"data": {"varName": "checksum","valLength": "8", "valType": "VALUE","isBinary":"아니오", "value":"000000000"}},
+                                                 {"data": {"varName": "endMark","valLength": "2", "valType": "VALUE","isBinary":"아니오", "value":"@@"}}
+                                              ]
+                               }
+                          ]
+              }
+            ]
+          }
+        ]
+    }
+    
+    

@@ -1,0 +1,42 @@
+.pairwise-generation-result-information-template {
+  .information {
+    width: 100%;
+    border: 1px solid #6c757d;
+    font-family: "FontAwesome";
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+    padding: 0% 1% 1% 1%;
+
+    legend {
+      font-weight: bold !important;
+      text-align: left !important;
+      width: auto;
+    }
+
+    .information-table {
+      width: 100%;
+
+        .title {
+            width: 12%;
+            text-align: right;
+            padding-right: 1%;
+            margin-top: 2%;
+            padding-top: 0.5%;
+          }
+          .inputs {
+            width: 22%;
+            text-align: left;
+            margin-top: 2%;
+
+            input, select{
+              width: 80%;
+              height: 2em;
+              margin-top: 2%;
+            }
+          }
+
+      
+    }
+  }
+}

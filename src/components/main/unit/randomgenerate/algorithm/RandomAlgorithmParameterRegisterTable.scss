@@ -1,0 +1,223 @@
+.random-algorithm-parameter-register-table {
+  background-color: white;
+  text-align: center;
+  float: center;
+  font-family: '나눔고딕';
+  font-weight: bold;
+  $text-color : #333333;
+  $font-size : 12px;
+  .toolbar-row{
+    width: 100%;
+    display: inline-flex;
+    .detail-search{
+      margin-left: 0.5em;
+      margin-top: 1em;
+      height: 2em;
+      .detail-button{
+        position: relative;
+        height: 2.4em;
+        width: 3.5em;
+        background-color: white;
+        color: #666666;
+        border: 1px solid #ced4da;
+        padding: 0.2em 0.5em 0.2em 0.5em;
+      }
+      .myModal{
+        .modal-content{
+          width: 45em;
+          .modal-header{
+            height: 5em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            background-color: #666666;
+            .modal-title{
+              color: white;
+              margin-left:2.5em;
+              font-size: 2em;
+              font-weight: 600;
+              padding: 0 3em 0 4em;
+            }
+          }
+          .modal-body{
+            .myModal-content{
+                font-size: 1.2em;
+                position: relative;
+                color: #666666; //글자 색상
+                width: 100%;
+                border: none;
+              .level-search{
+                float: left;
+                display: inline-flex;
+                height: 2em;
+                line-height: 2em;
+                font-size: 1em;
+                margin: 0em 0em 0.8em 0em;
+                label {
+                  margin-left: 1em;
+                  margin-right: 1em;
+                }
+                input[type=select] {
+                  font-size: 0.8em;
+                  height: 2.5em;
+                  width: 20em;
+                  padding: 0.2em 0.5em 0.2em 0.5em;
+                  margin-left: 7em;
+                  margin-right: 0.5em;
+                  margin-top: 0.1em;
+                }
+      
+              }
+              
+              .fieldName-search{
+                float: left;
+                display: inline-flex;
+                height: 2em;
+                line-height: 2em;
+                font-size: 1em;
+                margin: 0.8em 0em 0.8em 0em;
+                label {
+                  margin-left: 1em;
+                  margin-right: 1em;
+                }
+                input[type=text] {
+                  font-size: 0.8em;
+                  height: 2.5em;
+                  width: 20em;
+                  padding: 0.5em 0.5em 0.5em 0.5em;
+                  margin-left: 3.2em;
+                  margin-right: 0.5em;
+                  margin-top: 0.1em;
+                }
+              }
+              
+            }
+          }
+          .modal-footer{
+            background-color: #E6E6E6;
+            height: 4.5em;
+          }
+        }
+      }
+    }
+    .search-bar{
+      margin-top: 1em;
+      display: inline-flex;
+      float: left;
+      .form-control{
+        width: 20em;
+      }
+      .icon-button{
+        background-color: white;
+        color: #666666;
+        height: 2.3em;
+        margin-left: -2.5em;
+        border-top: 1px solid #ced4da;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+      }
+    }
+    .clear-search {
+      display: inline-flex;
+      margin-top: 1.25em;
+      margin-left: 0.5em;
+      line-height: 3em;
+      height: 3em;
+      float: left;
+      font-family: 'FontAwesome';
+      font-size: 0.8em;
+      color: #666666;
+      .close-button{
+        color: #666666;
+        background-color: #E6E6E6;
+        border: none;
+        line-height: 1em;
+        padding-top: 0.25em;
+      }
+    }
+    .search-condition{
+      margin-top: 1.4em;
+      margin-left: 1em;
+      display: inline-flex;
+      height: 2.6em;
+      line-height: 2em;
+      padding: 0.3em 0.5em 0.3em 0.5em;
+      font-size: 0.8em;
+      color: #666666;
+      background-color: #E6E6E6;
+      .search-criteria{
+        margin: 0 0.2em 0 0.2em;
+      }
+    }
+  }
+  .table{
+    margin: 0;
+    background-color: rgba(230, 230, 230, 1);
+  }
+  .success{
+    color: #31708F;
+    background-color: #D9EDF7;
+    z-index: 1;
+    padding: 5px;
+    margin: -5px;
+  }
+  .fail{
+    color: #A94442;
+    background-color: #F2DEDE;
+    z-index: 1;
+    padding: 5px;
+    margin: -5px;
+  }
+  .row{
+    background-color: white;
+    display: inline-flex;
+    float: left;
+    width: 102%;
+    padding-bottom: 5em;
+    .btn-secondary{
+      background-color: white;
+      color: #979797;
+      border-color: #979797;
+    }
+    .react-bootstrap-table-pagination-list{
+      float: right;
+      .pagination{
+        color: #979797;
+        margin-top: -2.5em;
+        height: 3.5em;
+        box-shadow: none;
+        margin-right: 7.5em;
+        li{
+          padding: 0.5em;
+          border-bottom: none;
+        }
+        .page-item:hover{
+          background-color: white;
+        }
+        .page-link{
+          background-color: white;
+          color: #979797;
+          border-color: white;
+        }
+      }
+    }
+    .react-bs-table-sizePerPage-dropdown{
+      float:left;
+      left: 1em;
+      margin-top: -1.5em;
+    }
+    .react-bootstrap-table-pagination-total{
+      color: #979797;
+      float: left;
+      margin-top: 1.15em;
+      left: 5em;
+      position: relative;
+    }
+  }
+
+.fa {
+  cursor: pointer;
+}
+
+
+}

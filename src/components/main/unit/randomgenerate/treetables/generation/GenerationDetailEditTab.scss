@@ -1,0 +1,46 @@
+.tab-1-color {
+    // background-color: #01579b; //#009688
+    border-bottom: 4px solid #009688;
+    background: linear-gradient(to right, #009688 4%, #fcfcfc 4% 90%);
+
+}
+
+/* .tab-2-color {
+    //background-color: #0277bd; //#e4751b;
+    border-bottom: 4px solid #e4751b;
+    background: linear-gradient(to right, #e4751b 4%, #fcfcfc 4% 90%);
+
+}
+.tab-3-color {
+   // background-color: #0288d1; //#cb3d4a;
+    border-bottom: 4px solid #cb3d4a;
+    background: linear-gradient(to right, #cb3d4a 4%, #fcfcfc 4% 90%);
+
+}
+.tab-4-color {
+   // background-color: #039be5;//00a8f4;
+    border-bottom: 4px solid #00a8f4;
+    background: linear-gradient(to right, #00a8f4 4%, #fcfcfc 4% 90%);
+
+} */
+.tab{
+    border-left-color:#fcfcfc;
+    border-right-color: #fcfcfc;
+    border-top-color: #fcfcfc;
+}
+.tab-1-color:hover { 
+    background: #009688;
+    border-color: #009688;;
+  }
+/* .tab-2-color:hover { 
+    background: #e4751b;
+    border-color: #e4751b;
+  }
+.tab-3-color:hover { 
+    background: #cb3d4a;
+    border-color: #cb3d4a;
+}
+.tab-4-color:hover { 
+    background: #00a8f4;
+    border-color: #00a8f4;
+} */

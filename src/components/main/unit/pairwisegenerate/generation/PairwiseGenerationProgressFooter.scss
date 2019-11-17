@@ -1,0 +1,35 @@
+.pairwise-generation-progress-footer {
+    margin-top: 1em;
+    .progress-button-group {
+      margin-top: 1em;
+      width: 100%;
+      float: left;
+      .fa {
+        margin-right: 0.5em;
+      }
+      .continue {
+        background-color: #333333;
+        color: white;
+        border: none;
+        width: 6em;
+        height: 2em;
+        margin-right: 0.5em;
+      }
+      .pause {
+        background-color: #333333;
+        color: white;
+        border: none;
+        width: 6em;
+        height: 2em;
+        margin: 0 0.5em;
+      }
+      .stop {
+        background-color: #333333;
+        color: white;
+        border: none;
+        width: 6em;
+        height: 2em;
+        margin-left: 0.5em;
+      }
+    }
+}

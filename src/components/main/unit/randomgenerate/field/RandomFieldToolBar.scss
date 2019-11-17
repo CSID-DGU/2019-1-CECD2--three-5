@@ -1,0 +1,129 @@
+.random-field-tool-bar{
+.tool-bar{
+  width: 100%;
+  padding-top: -10em;
+  .bottom-tool-bar {
+    float: left;
+    width: 100%;
+    height: 10%;
+    font-family: '나눔고딕';
+    font-weight: 800;
+    $text-color : #333333;
+    $font-size : 12px;
+   .top-pagenation{
+     //float: left;
+     display: inline;
+      select{
+        float: left;
+        border: 1px solid #999999;
+        color: #999999;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 20px;
+        margin-top: 5px;
+      }
+
+    .display-range {
+      float: left;
+      margin-top: 0.7%;
+      margin-left: 1.5%;
+      color:#979797;
+    }
+   }
+
+  
+    .toolbar-group {
+      float: right;
+      margin-bottom: 0.5%;
+  
+      .button-group {
+        position: relative;
+        float: left;  //버튼 나란히 위치
+        width: auto;
+        margin-top: 1%;
+        margin-left: 10px; //버튼간격 조정
+  
+        .export-button{
+          background-color: white;
+          border : 1px solid #AAAAAA;
+          i{
+            color:#666666;
+            margin-right: 10px;//아이콘 글자 사이의 여백
+          }
+          .export-font{
+            color:#666666;
+            font-weight: bold;
+          }
+          &:hover{
+            background-color: #D4D4D4;
+          }
+        }
+        .start-button{
+          background-color: white;
+          border : 1px solid #AAAAAA;
+          i{
+            color:#666666;
+            margin-right: 10px;
+          }
+          .start-font{
+            color:#666666;
+            font-weight: bold;
+          }
+          &:hover{
+            background-color: #D4D4D4;
+          }
+        }
+        .add-button{
+          background-color: white;
+          border : 1px solid #AAAAAA;
+          i{
+            color:#666666;
+            margin-right: 10px;
+          }
+          .add-font{
+            color:#666666;
+            font-weight: bold;
+          }
+          &:hover{
+            background-color: #D4D4D4;
+          }
+        }
+        .save-button{
+          background-color: white;
+          border : 1px solid #AAAAAA;
+          i{
+            color:#666666;
+            margin-right: 10px;
+          }
+          .save-font{
+            color:#666666;
+            font-weight: bold;
+          }
+          &:hover{
+            background-color: #D4D4D4;
+          }
+        }
+        .batchDelete-button{
+          background-color: white;
+          border : 1px solid #AAAAAA;
+          i{
+            color:#666666;
+            margin-right: 10px;
+          }
+          .batchDelete-font{
+            color:#666666;
+            font-weight: bold;
+          }
+          &:hover{
+            background-color: #D4D4D4;
+          }
+        }
+      }
+    }
+  }
+  
+
+}
+}
+

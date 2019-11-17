@@ -1,0 +1,38 @@
+.random-rule-field-mapping-information-template {
+  .important-inputs {
+    width: 100%;
+    border: 1px solid #6c757d;
+    font-family: "FontAwesome";
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: left;
+    padding: 0% 1% 1% 1%;
+
+    legend {
+      font-weight: bold !important;
+      text-align: left !important;
+      width: auto;
+    }
+    .input-table {
+      width: 100%;
+      float: left;
+
+      .title {
+        width: 10%;
+        text-align: right;
+        padding-right: 2%;
+        padding-top: 1%;
+        width: 6%;
+      }
+      .inputs {
+        width: 20%;
+        padding-top: 1%;
+
+        select, input {
+          width: 80%;
+          height: 2em;
+        }
+      }
+    }
+  }
+}

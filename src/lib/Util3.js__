@@ -1,0 +1,33 @@
+/*
+* 작성자 : 권오승 (2019.05.22)
+* 내용 : axios 유틸리티 API
+*/
+
+import whaxios from './whaxios';
+
+export default {
+  /***********************/
+  /* 공통 처리     */
+  /***********************/
+  processAxios(url, data, callback) {
+    // console.log("DEBUG::processAxios::input::")
+    // console.log(data);
+    whaxios.delete(url, data).then(function(response){
+      // console.log("DEBUG::processAxios::response::")
+      // console.log(response);
+      if(response.data.validationYN==='0'){
+        callback("Validation Error.", response);
+      } else if(response.data.serverLogicYN==='0'){
+        callback("Server Logic Error", response);
+      //} else if(response.uuid==='0'){
+      //  callback("Uuid is not valid.", response);
+      } else{
+        callback(null, response);
+      }
+    }).catch(function(error){
+      console.log("DEBUG::processAxios::response::")
+      console.log(error);
+      callback(JSON.stringify(error), null);
+    }); //catch절 끝
+  },
+}
